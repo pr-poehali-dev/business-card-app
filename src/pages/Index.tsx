@@ -27,7 +27,7 @@ const Index = () => {
           asChild
         >
           <a 
-            href="https://t.me/username" 
+            href="https://sexstudentki666.t.me" 
             target="_blank"
             rel="noopener noreferrer"
           >
