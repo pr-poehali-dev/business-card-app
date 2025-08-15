@@ -13,10 +13,10 @@ const Index = () => {
             className="w-32 h-32 rounded-full mx-auto mb-6 object-cover shadow-lg"
           />
           <h1 className="text-2xl font-light tracking-tight mb-2">
-            Ваше Имя
+            Сашка666
           </h1>
           <p className="text-gray-600 text-sm leading-relaxed">
-            Разработчик и дизайнер
+            OSINT специалист
           </p>
         </div>
 
