@@ -106,21 +106,7 @@ const Index = () => {
             </Card>
 
             {/* Social Links */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <a 
-                href="tel:+79999999999" 
-                className="flex flex-col items-center p-6 rounded-lg hover:bg-gray-50 transition-colors group"
-              >
-                <Icon name="Phone" size={24} className="mb-3 text-black group-hover:scale-110 transition-transform" />
-                <span className="text-sm text-gray-600">Телефон</span>
-              </a>
-              <a 
-                href="mailto:hello@example.com" 
-                className="flex flex-col items-center p-6 rounded-lg hover:bg-gray-50 transition-colors group"
-              >
-                <Icon name="Mail" size={24} className="mb-3 text-black group-hover:scale-110 transition-transform" />
-                <span className="text-sm text-gray-600">Email</span>
-              </a>
+            <div className="flex justify-center">
               <a 
                 href="https://t.me/username" 
                 className="flex flex-col items-center p-6 rounded-lg hover:bg-gray-50 transition-colors group"
@@ -129,15 +115,6 @@ const Index = () => {
               >
                 <Icon name="MessageCircle" size={24} className="mb-3 text-black group-hover:scale-110 transition-transform" />
                 <span className="text-sm text-gray-600">Telegram</span>
-              </a>
-              <a 
-                href="https://linkedin.com/in/username" 
-                className="flex flex-col items-center p-6 rounded-lg hover:bg-gray-50 transition-colors group"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icon name="Linkedin" size={24} className="mb-3 text-black group-hover:scale-110 transition-transform" />
-                <span className="text-sm text-gray-600">LinkedIn</span>
               </a>
             </div>
           </div>
